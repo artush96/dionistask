@@ -28,7 +28,7 @@ class Worker(Base):
     ean13 = Column(BigInteger, unique=True, nullable=False)
     password = Column(String, nullable=False)
 
-    name = Column(String)
+    name = Column(String, )
     surname = Column(String)
     middle_name = Column(String)
 
