@@ -6,7 +6,7 @@
                          type="date" v-model="theDate" value=""/>
                 <br>
                 <b-button variant="outline-primary" @click="submit">Get Report</b-button>
-                            <a class="btn btn-primary ml-2" :href="api_data[0]" target="_blank">Download</a>
+                <a class="btn btn-primary ml-2" :href="api_data[0]" target="_blank">Download</a>
             </form>
         </div>
         <div class="chart">

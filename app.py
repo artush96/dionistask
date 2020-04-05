@@ -1,13 +1,11 @@
-import json
 import os
-
+import json
 
 import falcon
 import base64
 import datetime
 
-from numpy.core import unicode
-from sqlalchemy import extract, and_
+from sqlalchemy import and_
 from db_connect import session
 from models.activity_log import ActivityLog
 from models.worker import Worker
@@ -15,8 +13,6 @@ from reportlab.lib import colors
 from reportlab.lib.pagesizes import letter
 from reportlab.platypus import SimpleDocTemplate, TableStyle
 from reportlab.platypus import Table
-from reportlab.pdfbase import pdfmetrics
-from reportlab.pdfbase.ttfonts import TTFont
 
 app = falcon.App(cors_enable=True)
 
@@ -98,16 +94,6 @@ class WorkerApi:
 
 
 class Workers:
-
-    def on_get(self, req, resp):
-        data = {
-            'name': 'Anun',
-            'age': '25',
-            'type': 'sgxbc',
-        }
-
-        resp.body = json.dumps(data, indent=4)
-
     def on_post(self, req, resp):
         resp.status = falcon.HTTP_200
         data = json.loads(req.stream.read())
