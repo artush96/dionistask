@@ -19,7 +19,7 @@ cd dionistask
 
 ## setup falcon
 
-###use python 3.7
+### use python 3.7
 ```
 python -m venv venv
 ```
