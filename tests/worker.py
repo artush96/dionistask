@@ -11,9 +11,9 @@ from db_connect import db, session
 
 Base.metadata.create_all(db)
 # Create
-names = ['Александр', 'София', 'Мария', 'Максим', 'Михаил', 'Артём', 'Виктория']
-surnames = ['Иванов', 'Смирнов', 'Кузнецов', 'Попов', 'Васильев', 'Петров', 'Соколов']
-middle_names = ['Александрович', 'Игоревич', 'Сергеевич', 'Геннадьевич', 'Дмитриевич', 'Никитич', 'Ильич']
+names = ['Alexandr', 'Sofia', 'Maria', 'Maksim', 'Mixail', 'Artem', 'Viktoria']
+surnames = ['Ivanov', 'Smirnov', 'Kuznecov', 'Popov', 'Vasilev', 'Petrov', 'Sokolova']
+middle_names = ['Aleksandrovich', 'Igorevich', 'Sergeevich', 'Gennadevich', 'Dmitrevich', 'Nikitich', 'Ilich']
 types = [WorkerType.COLLECTOR, WorkerType.INSPECTOR]
 
 for i in range(30):
