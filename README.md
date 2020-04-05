@@ -77,7 +77,11 @@ npm run serve
 
 #### api url = gunicorn server url '127.0.0.1:8000'
 
-![Иллюстрация к проекту](https://github.com/artush96/sionistask/raw/master/images/postman.png)
+![Иллюстрация к проекту](https://github.com/artush96/sionistask/images/raw/master/postman.png)
+
+![Иллюстрация к проекту](https://github.com/artush96/sionistask/images/raw/master/diagram.png)
+
+![Иллюстрация к проекту](https://github.com/artush96/sionistask/images/raw/master/table.png)
 
 
 
