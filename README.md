@@ -69,7 +69,7 @@ npm run serve
 
 #### select date no less than date now and click Get Report
 
-![Иллюстрация к проекту](https://github.com/artush96/sionistask/raw/master/images/date.png)
+![Иллюстрация к проекту](https://github.com/artush96/dionistask/raw/master/images/date.png)
 
 #### download button does not work correctly but pdf is created in the directory 'dionistask'
 
@@ -77,11 +77,11 @@ npm run serve
 
 #### api url = gunicorn server url '127.0.0.1:8000'
 
-![Иллюстрация к проекту](https://github.com/artush96/sionistask/raw/master/images/postman.png)
+![Иллюстрация к проекту](https://github.com/artush96/dionistask/raw/master/images/postman.png)
 
-![Иллюстрация к проекту](https://github.com/artush96/sionistask/raw/master/images/diagram.png)
+![Иллюстрация к проекту](https://github.com/artush96/dionistask/raw/master/images/diagram.png)
 
-![Иллюстрация к проекту](https://github.com/artush96/sionistask/raw/master/images/table.png)
+![Иллюстрация к проекту](https://github.com/artush96/dionistask/raw/master/images/table.png)
 
 
 
